@@ -10,7 +10,6 @@ Welcome to My React & Express App! This application uses React for the frontend 
 - [API Endpoints](#api-endpoints)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -110,10 +109,6 @@ Here are some common API endpoints for this app:
 ## Contributing
 
 We welcome contributions to this project! Please fork the repository and submit a pull request with your changes. For any major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
