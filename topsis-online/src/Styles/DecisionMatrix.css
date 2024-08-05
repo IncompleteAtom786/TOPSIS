@@ -1,0 +1,81 @@
+:root {
+    --chestnut: #7B3F00;
+    --sienna: #E97451;
+    --cream: #FFFDD0;
+}
+
+body {
+    background-color: var(--cream);
+    position: relative;
+}
+
+.animated-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    /* Adjust the opacity to make it darker */
+    z-index: -1;
+}
+
+.animated-background {
+    min-height: 100vh;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+h1,
+.text-chestnut {
+    color: var(--chestnut);
+}
+
+.text-sienna {
+    color: var(--sienna);
+}
+
+.btn-chestnut {
+    background-color: var(--chestnut);
+    color: white;
+}
+
+.btn-chestnut:hover {
+    background-color: darken(var(--chestnut), 10%);
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table th,
+.table td {
+    border-bottom: 1px solid var(--chestnut);
+}
+
+.table th {
+    color: var(--chestnut);
+}
+
+.expert-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

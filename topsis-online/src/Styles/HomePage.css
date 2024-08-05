@@ -1,0 +1,39 @@
+:root {
+    --chestnut: #7B3F00;
+    --sienna: #E97451;
+    --cream: #FFFDD0;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+.animated-background {
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+h1,
+.text-chestnut {
+    color: var(--chestnut);
+}
+
+.text-sienna {
+    color: var(--sienna);
+}
+
+.btn-chestnut {
+    background-color: var(--chestnut);
+    color: white;
+}
+
+.btn-chestnut:hover {
+    background-color: darken(var(--chestnut), 10%);
+}

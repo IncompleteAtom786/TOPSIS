@@ -1,0 +1,60 @@
+{
+  "alternatives": [
+    "alternative1",
+    "alternative2",
+    "alternative3",
+    "Fuck",
+    "alternative5",
+    "alternative6"
+  ],
+  "criteria": [
+    {
+      "criterion": "Bitch",
+      "type": "type1",
+      "weight": "weight1"
+    },
+    {
+      "criterion": "criterion2",
+      "type": "type2",
+      "weight": "weight2"
+    },
+    {
+      "criterion": "criterion3",
+      "type": "type3",
+      "weight": "weight3"
+    },
+    {
+      "criterion": "criterion4",
+      "type": "type4",
+      "weight": "weight4"
+    },
+    {
+      "criterion": "criterion5",
+      "type": "type5",
+      "weight": "weight5"
+    }
+  ],
+  "experts": [
+    {
+      "id": 1,
+      "name": "Expert 1",
+      "matrix": {
+        "3": {
+          "1": "uyuiyui"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Expert 2",
+      "matrix": {
+        "1": {
+          "2": "jkyukuk"
+        },
+        "4": {
+          "1": "jkukukkuikukku"
+        }
+      }
+    }
+  ]
+}
