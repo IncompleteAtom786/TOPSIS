@@ -56,9 +56,6 @@ To get started, you'll need to set up both the frontend and backend. Follow thes
     npm install
     ```
 
-
-3. Create a `.env` file in the `backend` directory for environment variables. You can use `.env.example` as a template.
-
 ## Usage
 
 ### Running the Frontend
@@ -73,12 +70,6 @@ To get started, you'll need to set up both the frontend and backend. Follow thes
 
     ```bash
     npm start
-    ```
-
-    or, if you prefer yarn:
-
-    ```bash
-    yarn start
     ```
 
 3. Open your browser and go to `http://localhost:3000` to see the app in action.
@@ -97,34 +88,23 @@ To get started, you'll need to set up both the frontend and backend. Follow thes
     npm start
     ```
 
-    or, if you prefer yarn:
-
-    ```bash
-    yarn start
-    ```
-
-3. The backend will be running on `http://localhost:5000`.
+3. The backend will be running on `http://localhost:3001`.
 
 ## API Endpoints
 
 Here are some common API endpoints for this app:
-
-- `GET /api/items` - Retrieve a list of items.
-- `POST /api/items` - Create a new item.
+- `POST /save-data` - Saves the Data in JSON format (topsis-backend/data.json).
 
 ## Folder Structure
 
 ### Frontend
 
-- `src/` - Contains React components, hooks, and other frontend logic.
-- `public/` - Static assets like images and HTML file.
+- `src/` - Contains React components, hooks, and other frontend logic with css Styling files.
 - `package.json` - Frontend dependencies and scripts.
 
 ### Backend
 
-- `src/` - Contains Express routes, controllers, and middleware.
-- `config/` - Configuration files and environment variables.
-- `models/` - Database models (if applicable).
+- `src/` - Contains Express routes.
 - `package.json` - Backend dependencies and scripts.
 
 ## Contributing
